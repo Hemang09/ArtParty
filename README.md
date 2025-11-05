@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Hemang09/ArtParty/main/frontend/public/logo.png" width="150" alt="ArtParty Logo">
-</p>
+# 🎨 ArtParty  
+### A Real-Time Multiplayer Drawing and Guessing Game  
+Built with **React**, **Node.js**, **Socket.IO**, **TypeScript**, and **MongoDB**
 
 <p align="center">
   <a href="#-overview">Overview</a> • 
@@ -10,9 +10,6 @@
   <a href="#-license">License</a>
 </p>
 
-# 🎨 ArtParty  
-### A Real-Time Multiplayer Drawing and Guessing Game  
-Built with **React**, **Node.js**, **Socket.IO**, **TypeScript**, and **MongoDB**
 
 ---
 

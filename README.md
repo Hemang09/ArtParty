@@ -1,190 +1,170 @@
-# Scribble ✨🎨
+ArtParty ✨🎨
+<div align="center"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" /> </div> <div align="center"> <h3>🎨 Real-time multiplayer drawing and guessing game inspired by Skribbl.io</h3> <p>Draw, guess, and celebrate creativity with friends in real time!</p> <h2>🧩 <a href="https://github.com/Hemang09/ArtParty" target="_blank">GitHub Repository</a></h2> </div>
+🌟 Features
 
-<div align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-</div>
+🎨 Interactive Drawing Canvas – Smooth drawing with mouse or touch support
 
-<div align="center">
-  <h3>🎨 Real-time multiplayer drawing and guessing game inspired by Skribbl.io</h3>
-  <p>Draw, guess, and have fun with friends in real-time!</p>
-  
-  <h2>🚀 <a href="https://doodle-dash-kappa.vercel.app/" target="_blank">🎮 Play Now!</a></h2>
-  
-  <a href="https://doodle-dash-kappa.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🎨%20Live%20Demo-Play%20MystiDraw-brightgreen?style=for-the-badge&logoColor=white" alt="Live Demo" />
-  </a>
-</div>
+📹 Video Chat – See and talk to your friends while you play
 
----
+🗣️ Voice Input & Feedback – Use speech for chatting and receiving updates
 
-<!-- ## 🌟 Features
+🔄 Smart Reconnection – 30-second grace period to rejoin without losing progress
 
-- 🎨 **Interactive Drawing Canvas** - Smooth drawing with mouse/touch support
-- 🔄 **Smart Reconnection** - 10-second grace period to rejoin without losing progress
-- ⏱️ **Timed Rounds** - Fast-paced gameplay with countdown timers
-- 🏆 **Scoring System** - Points for quick guesses and successful drawings
-- 👥 **Multiple Rooms** - Private lobbies with password protection
-- 🔐 **JWT Authentication** - Secure token-based user sessions
-- 📱 **Responsive Design** - Works on desktop and mobile devices
-- ⚡ **Real-time Communication** - Instant updates via WebSockets
-- 🖌️ **Customizable Drawing Tools** - Choose colors, brush sizes, and more
-- 🗣️ **Voice Input** - Use speech-to-text to chat
-- 💡 Smart Hints – Automatically get helpful hints if you're stuck for too long -->
+⏱️ Timed Rounds & Turns – Stay on your toes with countdown timers
 
-## 🌟 Features
+🏆 Dynamic Scoring System – Earn points for quick guesses and creative drawings
 
-- 🎨 **Interactive Drawing Canvas** - Smooth drawing with mouse/touch support
-- 📹 **Video Chat** - See and talk to your friends while playing
-- 🗣️ **Voice Input & Feedback** - Use your voice to chat and get game updates
-- 🔄 **Smart Reconnection** - 30-second grace period to rejoin without losing progress
-- ⏱️ **Timed Rounds & Turns** - Fast-paced gameplay with countdown timers
-- 🏆 **Dynamic Scoring System** - Points for quick guesses and successful drawings
-- 👥 **Private Rooms** - Create password-protected lobbies for your friends
-- 🔐 **JWT Authentication** - Secure token-based user sessions
-- 📱 **Responsive Design** - Play on desktop, tablet, or mobile
-- ⚡ **Real-time Communication** - Instant updates via WebSockets
-- 🖌️ **Customizable Drawing Tools** - Choose colors, brush sizes, and clear the canvas
-- 💡 **Smart Hints** – Automatically get helpful hints if you're stuck for too long
+👥 Private Rooms – Create password-protected lobbies for your friends
 
-## 🎮 How to Play
+🔐 JWT Authentication – Secure token-based user sessions
 
-1. **Create or Join** a game room with a password
-2. **Wait for Players** - At least 2 players needed to start
-3. **Take Turns Drawing** - Choose from 3 word options when it's your turn
-4. **Guess Words** - Type your guesses in the chat
-5. **Earn Points** - Faster guesses = more points!
-6. **Win the Game** - Highest score after all rounds wins
+📱 Responsive Design – Play seamlessly on desktop, tablet, or mobile
 
-### 🎯 Scoring
+⚡ Real-time Communication – Instant updates via WebSockets
 
-- **First to guess**: 120 points
-- **Second to guess**: 110 points
-- **Third to guess**: 100 points
-- **Late guess**: 80 points
-- **Drawer bonus**: 50 points (when someone guesses)
-- **Drawer penalty**: -60 points (if nobody guesses)
+🖌️ Customizable Drawing Tools – Choose colors, brush sizes, and clear the canvas
 
-## 🛠️ Tech Stack
+💡 Smart Hints – Get helpful hints if you’re stuck too long
 
-### Frontend
+🎮 How to Play
 
-- **React 18** with TypeScript
-- **Socket.IO Client** for real-time communication
-- **HTML5 Canvas** for drawing functionality
-- **Ant Design** for UI components
-- **Tailwind CSS** for styling
+Create or Join a private room with a password
 
-### Backend
+Wait for Players – Minimum 2 players required
 
-- **Node.js** with Express
-- **Socket.IO** for WebSocket communication
-- **MongoDB** with Mongoose for data persistence
-- **JWT** for authentication
-- **bcrypt** for password hashing
+Take Turns Drawing – Pick one of three word options on your turn
 
-## 🚀 Getting Started
+Guess the Word – Type your guesses in the chat
 
-### Prerequisites
+Earn Points – The faster you guess, the more you score!
 
-- Node.js (v18+ recommended)
-- MongoDB (local or Atlas)
-- npm
+Win the Game – The player with the most points after all rounds wins
 
-### Installation
+🎯 Scoring
+Action	Points
+First to guess	120
+Second to guess	110
+Third to guess	100
+Late guess	80
+Drawer bonus	+50 (when someone guesses)
+Drawer penalty	-60 (if nobody guesses)
+🛠️ Tech Stack
+Frontend
 
-1. **Clone the repository**
+React 18 + TypeScript
 
-   ```bash
-   git clone https://github.com/Jitendra2407/scribble.git
-   cd scribble
-   ```
+Socket.IO Client for real-time events
 
-2. **Install backend dependencies**
+HTML5 Canvas for drawing functionality
 
-   ```bash
-   cd backend
-   npm install
-   ```
+Ant Design for components
 
-3. **Install frontend dependencies**
+Tailwind CSS for styling
 
-   ```bash
-   cd ../frontend
-   npm install
-   ```
+Backend
 
-4. **Setup environment variables**
+Node.js + Express
 
-   Create `.env` in the backend directory:
+Socket.IO for WebSocket communication
 
-   ```env
-   PORT=3000
-   JWT_SECRET=your_super_secret_jwt_key_here
-   MONGODB_URI=mongodb://localhost:27017/scribble
-   FRONTEND_URL=http://localhost:5173
-   NODE_ENV=development
-   ```
+MongoDB + Mongoose for persistence
 
-5. **Run the application**
+JWT for authentication
 
-   **Backend** (Terminal 1):
+bcrypt for password security
 
-   ```bash
-   cd backend
-   npm run dev
-   ```
+🚀 Getting Started
+Prerequisites
 
-   **Frontend** (Terminal 2):
+Node.js (v18+ recommended)
 
-   ```bash
-   cd frontend
-   npm run dev
-   ```
+MongoDB (local or Atlas)
 
-6. **Open your browser**
+npm
 
-   Navigate to `http://localhost:5173`
+Installation
 
-## 📁 Project Structure
+Clone the repository
 
-```
-scribble/
+git clone https://github.com/Hemang09/ArtParty.git
+cd ArtParty
+
+
+Install backend dependencies
+
+cd backend
+npm install
+
+
+Install frontend dependencies
+
+cd ../frontend
+npm install
+
+
+Setup environment variables
+
+Create a .env file inside backend/:
+
+PORT=3000
+JWT_SECRET=your_super_secret_jwt_key_here
+MONGODB_URI=mongodb://localhost:27017/artparty
+FRONTEND_URL=http://localhost:5173
+NODE_ENV=development
+
+
+Run the application
+
+Backend (Terminal 1):
+
+cd backend
+npm run dev
+
+
+Frontend (Terminal 2):
+
+cd frontend
+npm run dev
+
+
+Open in browser
+
+http://localhost:5173
+
+📁 Project Structure
+ArtParty/
 ├── backend/
-│   ├── controllers/     # Route controllers
+│   ├── controllers/     # API and socket controllers
 │   ├── handlers/        # Socket event handlers
-│   ├── middleware/      # Auth & validation middleware
-│   ├── models/          # MongoDB models
+│   ├── middleware/      # Auth & validation
+│   ├── models/          # MongoDB schemas
 │   ├── routes/          # Express routes
 │   ├── services/        # Game logic & state management
-│   └── utils/           # Helper functions
+│   └── utils/           # Helpers and constants
 ├── frontend/
 │   ├── src/
-│   │   ├── components/  # Reusable UI components
-│   │   ├── pages/       # Main page components
+│   │   ├── components/  # UI components
+│   │   ├── pages/       # Game pages and views
 │   │   └── utils/       # Frontend utilities
 │   └── public/
 └── README.md
-```
 
-## 🎨 Canvas Features
+🎨 Canvas Features
 
-- **Drawing Tools**: Pencil, eraser, color picker
-- **Brush Sizes**: Adjustable stroke width (1-20px)
-- **Color Palette**: 12 preset colors + custom color picker
-- **Clear Canvas**: Reset drawing area
-- **Real-time Sync**: All players see drawings instantly
+Drawing Tools: Pencil, eraser, and color picker
 
-## 🔧 Configuration
+Brush Sizes: Adjustable (1–20px)
 
-### Game Settings
+Color Palette: 12 presets + custom picker
 
-You can modify game settings in `backend/utils/gameConfig.js`:
+Clear Canvas: Reset drawing instantly
 
-```javascript
+Real-time Sync: Everyone sees updates instantly
+
+🔧 Configuration
+
+Edit backend/utils/gameConfig.js to adjust game behavior:
+
 export const GAME_CONFIG = {
   MIN_PLAYERS: 2,
   MAX_PLAYERS: 8,
@@ -193,55 +173,8 @@ export const GAME_CONFIG = {
   PREPARATION_TIME: 5, // seconds
   WORD_SELECTION_TIME: 10, // seconds
 };
-```
 
-## 🚀 Deployment
+❤️ Acknowledgements
 
-### Frontend (Vercel)
-
-1. Connect your GitHub repo to Vercel
-2. Set build command: `npm run build`
-3. Set environment variables in Vercel dashboard
-
-### Backend (Render/Railway)
-
-1. Connect your GitHub repo
-2. Set start command: `npm start`
-3. Add environment variables in dashboard
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
-
-- ✅ You may share and redistribute the material
-- ❌ You may not use this project for commercial purposes
-- ❌ You may not modify or create derivative works
-- ✅ You must give appropriate credit
-
-See the [LICENSE](https://creativecommons.org/licenses/by-nc-nd/4.0/) for details.
-
-## 📞 Contact
-
-**Jitendra** - [@Jitendra](https://github.com/Jitendra2407)
-
-Project Link: [https://github.com/Jitendra2407/Scribble](https://github.com/Jitendra2407/Scribble)
-
-Live Demo: [https://scribble-rq52.vercel.app/](https://scribble-rq52.vercel.app/)
-
----
-
-<div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/Jitendra2407/Scribble">Jitendra2407</a></p>
-  <p>🎮 <a href="https://scribble-rq52.vercel.app/" target="_blank"><strong>Play Scribble Now!</strong></a></p>
-  <p>⭐ Star this repo if you like it!</p>
-</div>
+Inspired by Skribbl.io
+ — built to bring friends together for creativity, laughter, and art.

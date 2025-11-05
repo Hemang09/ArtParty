@@ -129,7 +129,7 @@ const Page = () => {
         {/* Header */}
         <div className="text-center pt-8 pb-4 px-4">
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 bg-clip-text text-transparent mb-4">
-            Piktionary
+            ArtParty
           </h1>
           <p
             className="text-sm md:text-base max-w-md mx-auto 

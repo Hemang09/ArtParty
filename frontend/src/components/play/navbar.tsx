@@ -97,7 +97,7 @@ const Navbar = ({ socket }: NavbarProps) => {
               <LuSparkles className="w-5 h-5" />
             </div>
             <span className="font-bold text-lg hidden sm:block">
-              Piktionary
+              ArtParty
             </span>
           </div>
 
